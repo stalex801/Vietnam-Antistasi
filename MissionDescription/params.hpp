@@ -65,7 +65,7 @@ class Params
         title = "Time between autosaves (in minutes)";
         values[] = {9999,600,1200,1800,3600,5400};
         texts[] = {"Load from save (Default: 60)","10","20","30","60","90"};
-        default = 9999;
+        default = 1800;
     };
     class membership
     {
@@ -86,7 +86,7 @@ class Params
         title = "Enable Teamkill Punish";
         values[] = {9999,1,0};
         texts[] = {"Load from save (Default: Yes)","Yes","No"};
-        default = 9999;
+        default = 0;
     };
     class mRadius
     {
@@ -100,21 +100,21 @@ class Params
         title = "Allow Friendly Player Markers";
         values[] = {9999,1,0};
         texts[] = {"Load from save (Default: Yes)","Yes","No"};
-        default = 9999;
+        default = 0;
     };
     class AISkill
     {
         title = "Mission Difficulty";
         values[] = {9999,1,2,3};
         texts[] = {"Load from save (Default: Normal)","Easy","Normal","Hard"};
-        default = 9999;
+        default = 3;
     };
     class unlockItem
     {
         title = "Number of the same item required to unlock";
         values[] = {9999,15,25,40,1e6};
         texts[] = {"Load from save (Default: 25)","15","25","40","1 000 000"};
-        default = 9999;
+        default = 40;
     };
     class memberOnlyMagLimit
     {
@@ -156,7 +156,7 @@ class Params
         title = "Enable Napalm Bombing for AI";
         values[] = {9999,0,1};
         texts[] = {"Load from save (Default: No)","No","Yes"};
-        default = 9999;
+        default = 1;
     };
     class unlockedUnlimitedAmmo
     {
@@ -191,7 +191,7 @@ class Params
         title = "Chance of helmet loss on headshots";
         values[] = {9999,0,33,66,100};
         texts[] = {"Load from save (Default: Sometimes)","Never","Sometimes","Often","Always"};
-        default = 9999;
+        default = 66;
     };
     class Spacer10
     {
@@ -366,14 +366,14 @@ class Params
         title = "Maximum Weapon Types in Crates";
         values[] = {9999,0,2,4,6,8,12,16};
         texts[] = {"Load from save (Default: 9)","1","3","5","7","9","13","17"};
-        default = 9999;
+        default = 4;
     };
     class crateWepNumMax
     {
         title = "Maximum Weapon Quantity in Crates";
         values[] = {9999,0,1,3,5,8,10,15};
         texts[] = {"Load from save (Default: 8)","None","1","3","5","8","10","15"};
-        default = 9999;
+        default = 5;
     };
     class Spacer1
     {
